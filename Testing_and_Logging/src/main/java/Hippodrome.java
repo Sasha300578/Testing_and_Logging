@@ -11,7 +11,7 @@ public class Hippodrome {
 
     private final List<Horse> horses;
 
-    private static final Logger LOGGER = LoggerFactory.getLogger(Main.class);
+    private static final Logger LOGGER = LoggerFactory.getLogger(Hippodrome.class);
 
     public Hippodrome(List<Horse> horses) {
         if (isNull(horses)) {
